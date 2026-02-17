@@ -1,29 +1,29 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tropic Motherboard Hub 🌴🔌</title>
+  <title>Tropic Motherboard Hub 🌴⚡️</title>
   <link rel="stylesheet" href="styles.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <div class="background-layer"></div>
+  <div class="bg-neon-layer"></div>
+  <div class="bg-grid-overlay"></div>
 
   <header class="hero">
     <div class="hero-content">
-      <h1>Tropic Motherboard Hub 🌴🔥</h1>
-      <p>Neon circuits meet island paradise vibes</p>
+      <h1 class="glitch" data-text="Tropic Motherboard Hub">Tropic Motherboard Hub</h1>
+      <p>Where tropical neon meets next-gen circuitry</p>
       <div class="cta-buttons">
-        <a href="#quiz" class="btn primary">Test Your Knowledge</a>
-        <a href="#game" class="btn secondary">Play Memory Match</a>
-        <a href="3d-motherboard.html" class="btn tertiary">Explore 3D Motherboard</a>
+        <a href="#quiz" class="btn neon-btn cyan">Knowledge Quiz</a>
+        <a href="#game" class="btn neon-btn magenta">Memory Challenge</a>
+        <a href="3d-motherboard.html" class="btn neon-btn green">3D Explorer</a>
       </div>
     </div>
   </header>
 
-  <nav>
+  <nav class="glass-nav">
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#quiz">Quiz</a></li>
@@ -33,72 +33,66 @@
   </nav>
 
   <main>
-    <section id="about" class="section">
-      <h2>Discover the Heart of Your PC</h2>
+    <section id="about" class="section glass-section">
+      <h2>Core Components – 2026 Edition</h2>
       <div class="about-grid">
-        <div class="card">
+        <div class="card neon-card">
           <h3>CPU Socket</h3>
-          <p>The brain's home — AM5, LGA 1851 & more in 2026.</p>
+          <p>LGA 1851 / AM6 ready • Extreme overclock zones</p>
         </div>
-        <div class="card">
-          <h3>VRM & Cooling</h3>
-          <p>Heavy-duty power delivery for overclocking beasts.</p>
+        <div class="card neon-card">
+          <h3>Power Delivery</h3>
+          <p>24+2 phases • Liquid neon cooling support</p>
         </div>
-        <div class="card">
-          <h3>PCIe 5.0 & M.2</h3>
-          <p>Blazing speeds for GPUs and Gen5 NVMe SSDs.</p>
+        <div class="card neon-card">
+          <h3>Connectivity</h3>
+          <p>PCIe 6.0 • Wi-Fi 8 • Thunderbolt 6</p>
         </div>
-        <div class="card">
-          <h3>RGB + Wi-Fi 7</h3>
-          <p>Neon aesthetics meet ultra-fast wireless.</p>
+        <div class="card neon-card">
+          <h3>RGB Ecosystem</h3>
+          <p>Synchro-Neon™ • ARGB 3.0 + tropical wave modes</p>
         </div>
       </div>
     </section>
 
-    <section class="image-showcase">
-      <h2>Vibrant Tropic-Tech Inspiration</h2>
+    <section class="image-showcase glass-section">
+      <h2>Neon Tropic-Tech Gallery</h2>
       <div class="image-grid">
-        <img src="https://thumbs.dreamstime.com/b/computer-circuit-board-glowing-vibrant-neon-technology-light-interconnected-microchips-purple-pink-traces-representing-417430601.jpg" 
-             alt="Neon glowing motherboard purple pink" loading="lazy">
-        <img src="https://thumbs.dreamstime.com/b/vibrant-image-showcases-computer-motherboard-s-cpu-socket-illuminated-dramatic-red-lighting-detail-striking-372832989.jpg" 
-             alt="Red glowing CPU socket motherboard" loading="lazy">
-        <img src="https://thumbs.dreamstime.com/b/vibrant-neon-colored-tropical-palm-leaves-vibrant-neon-colored-tropical-palm-leaves-ai-generated-316065968.jpg" 
-             alt="Neon tropical palm leaves vibrant" loading="lazy">
-        <img src="https://thumbs.dreamstime.com/b/vibrant-neon-palm-fronds-abstract-futuristic-cyberpunk-aesthetic-background-381248968.jpg" 
-             alt="Neon palm fronds cyberpunk" loading="lazy">
-        <img src="https://dlcdnwebimgs.asus.com/gain/FB48BC7C-8F85-4D70-9BF7-0DCB46804069/w717/h525/fwebp" 
-             alt="ASUS ROG colorful RGB gaming motherboard" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800" alt="Neon circuit board purple cyan" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800" alt="Futuristic motherboard RGB" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=800" alt="Tropical neon palm cyber" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=800" alt="Cyberpunk gradient grid" loading="lazy">
       </div>
     </section>
 
-    <section id="quiz" class="section quiz-section">
-      <h2>Motherboard Mastery Quiz 🌴</h2>
+    <section id="quiz" class="section glass-section quiz-section">
+      <h2>Motherboard Neon Quiz 🌴⚡️</h2>
       <div id="quiz-container">
-        <div id="progress">Question <span id="q-num">1</span> of <span id="q-total"></span></div>
+        <div id="progress">Question <span id="q-num">1</span>/<span id="q-total"></span></div>
         <h3 id="question"></h3>
         <div id="options"></div>
-        <button id="submit-btn" class="btn primary">Check Answer</button>
+        <button id="submit-btn" class="btn neon-btn cyan">Submit</button>
         <div id="feedback"></div>
-        <button id="next-btn" class="btn secondary" style="display:none;">Next →</button>
+        <button id="next-btn" class="btn neon-btn magenta" style="display:none;">Next</button>
         <div id="score-final" style="display:none;"></div>
       </div>
     </section>
 
-    <section id="game" class="section game-section">
-      <h2>Component Memory Match Game</h2>
-      <p>Flip cards to match motherboard parts — beat the clock!</p>
+    <section id="game" class="section glass-section game-section">
+      <h2>Neon Component Match</h2>
+      <p>Flip & match – feel the cyber-tropic pulse!</p>
       <div id="game-info">
         <span>Moves: <strong id="moves">0</strong></span>
         <span>Time: <strong id="timer">00:00</strong></span>
       </div>
       <div id="game-board"></div>
-      <button id="reset-game" class="btn primary" style="display:none;">Play Again</button>
+      <button id="reset-game" class="btn neon-btn green" style="display:none;">Restart</button>
       <div id="game-message"></div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Tropic Motherboard Hub • Built with ❤️ in Kathmandu</p>
+  <footer class="glass-footer">
+    <p>© 2026 Tropic Motherboard Hub • Kathmandu Neon Labs</p>
   </footer>
 
   <script src="script.js"></script>
