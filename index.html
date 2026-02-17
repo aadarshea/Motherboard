@@ -3,98 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tropic Motherboard Hub 🌴⚡️</title>
+  <title>Motherboard Hub - The Heart of Every Computer</title>
   <link rel="stylesheet" href="styles.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <div class="bg-neon-layer"></div>
-  <div class="bg-grid-overlay"></div>
 
-  <header class="hero">
-    <div class="hero-content">
-      <h1 class="glitch" data-text="Tropic Motherboard Hub">Tropic Motherboard Hub</h1>
-      <p>Where tropical neon meets next-gen circuitry</p>
-      <div class="cta-buttons">
-        <a href="#quiz" class="btn neon-btn cyan">Knowledge Quiz</a>
-        <a href="#game" class="btn neon-btn magenta">Memory Challenge</a>
-        <a href="3d-motherboard.html" class="btn neon-btn green">3D Explorer</a>
-      </div>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="logo">
+      <span class="logo-text">Motherboard Hub</span>
     </div>
+    <nav>
+      <ul>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#components">Components</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="cta-button">Contact Us</a>
   </header>
 
-  <nav class="glass-nav">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#quiz">Quiz</a></li>
-      <li><a href="#game">Game</a></li>
-      <li><a href="3d-motherboard.html">3D View</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="about" class="section glass-section">
-      <h2>Core Components – 2026 Edition</h2>
-      <div class="about-grid">
-        <div class="card neon-card">
-          <h3>CPU Socket</h3>
-          <p>LGA 1851 / AM6 ready • Extreme overclock zones</p>
-        </div>
-        <div class="card neon-card">
-          <h3>Power Delivery</h3>
-          <p>24+2 phases • Liquid neon cooling support</p>
-        </div>
-        <div class="card neon-card">
-          <h3>Connectivity</h3>
-          <p>PCIe 6.0 • Wi-Fi 8 • Thunderbolt 6</p>
-        </div>
-        <div class="card neon-card">
-          <h3>RGB Ecosystem</h3>
-          <p>Synchro-Neon™ • ARGB 3.0 + tropical wave modes</p>
-        </div>
+  <!-- Trusted / Leader Section -->
+  <section class="trusted-section">
+    <div class="trusted-logos">
+      <div class="logo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Asus_Logo.svg/512px-Asus_Logo.svg.png" alt="ASUS" width="80"/>
+        <p>Top Gaming & Workstation Boards</p>
       </div>
-    </section>
-
-    <section class="image-showcase glass-section">
-      <h2>Neon Tropic-Tech Gallery</h2>
-      <div class="image-grid">
-        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800" alt="Neon circuit board purple cyan" loading="lazy">
-        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800" alt="Futuristic motherboard RGB" loading="lazy">
-        <img src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=800" alt="Tropical neon palm cyber" loading="lazy">
-        <img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=800" alt="Cyberpunk gradient grid" loading="lazy">
+      <div class="logo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MSI_logo.svg/512px-MSI_logo.svg.png" alt="MSI" width="80"/>
+        <p>4.8 Star Rating</p>
       </div>
-    </section>
-
-    <section id="quiz" class="section glass-section quiz-section">
-      <h2>Motherboard Neon Quiz 🌴⚡️</h2>
-      <div id="quiz-container">
-        <div id="progress">Question <span id="q-num">1</span>/<span id="q-total"></span></div>
-        <h3 id="question"></h3>
-        <div id="options"></div>
-        <button id="submit-btn" class="btn neon-btn cyan">Submit</button>
-        <div id="feedback"></div>
-        <button id="next-btn" class="btn neon-btn magenta" style="display:none;">Next</button>
-        <div id="score-final" style="display:none;"></div>
+      <div class="logo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Gigabyte_logo.svg/512px-Gigabyte_logo.svg.png" alt="Gigabyte" width="80"/>
+        <p>Leader in AORUS Series</p>
       </div>
-    </section>
-
-    <section id="game" class="section glass-section game-section">
-      <h2>Neon Component Match</h2>
-      <p>Flip & match – feel the cyber-tropic pulse!</p>
-      <div id="game-info">
-        <span>Moves: <strong id="moves">0</strong></span>
-        <span>Time: <strong id="timer">00:00</strong></span>
+      <div class="logo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Logo_Tomshardware.svg/512px-Logo_Tomshardware.svg.png" alt="Tom's Hardware" width="80"/>
+        <p>Highly Recommended 2025–2026</p>
       </div>
-      <div id="game-board"></div>
-      <button id="reset-game" class="btn neon-btn green" style="display:none;">Restart</button>
-      <div id="game-message"></div>
-    </section>
-  </main>
+    </div>
 
-  <footer class="glass-footer">
-    <p>© 2026 Tropic Motherboard Hub • Kathmandu Neon Labs</p>
+    <h1 class="main-heading">Motherboard Hub is Trusted by Global PC Builders & Schools</h1>
+
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <div class="quote">“</div>
+        <p>We have been using Motherboard Hub resources since 2023 in our computer science classes. It has become an important part of our curriculum. The diagrams and explanations help students understand complex topics easily.</p>
+        <p class="author">Mr. Rajesh Sharma<br><small>Computer Teacher, Kathmandu Model School</small></p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote">“</div>
+        <p>Thanks to Motherboard Hub guides, I’ve been able to learn and grow in my role as a PC builder. Looking forward to more advanced content on next-gen platforms like AM6 and LGA 1851.</p>
+        <p class="author">Aadarsha<br><small>Student & PC Enthusiast, Kathmandu</small></p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote">“</div>
+        <p>Motherboard Hub brings together hardware knowledge and practical building tips – truly a brilliant resource for students and hobbyists!</p>
+        <p class="author">Suman Thapa<br><small>Tech Club Leader, Nepal Engineering College</small></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Sections (you can expand these) -->
+  <section id="components" class="content-section">
+    <h2>Key Motherboard Components</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>CPU Socket</h3>
+        <p>AM5, LGA 1851, TRX50 – the foundation where the processor connects.</p>
+      </div>
+      <div class="card">
+        <h3>Chipset & VRM</h3>
+        <p>Controls communication and delivers stable power even under heavy load.</p>
+      </div>
+      <div class="card">
+        <h3>PCIe Slots & M.2</h3>
+        <p>PCIe 5.0/6.0 for GPUs, multiple Gen5 M.2 for ultra-fast SSDs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resources" class="content-section gray-bg">
+    <h2>Learning Resources</h2>
+    <p>Explore diagrams, quizzes, comparison charts, and building guides – perfect for school projects and self-learning.</p>
+    <a href="#" class="cta-button large">View All Resources</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Motherboard Hub – School Project by Aadarsha | Kathmandu, Nepal</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
